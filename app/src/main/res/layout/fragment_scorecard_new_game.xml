@@ -1,0 +1,68 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nameInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name of Game"/>
+        </android.support.design.widget.TextInputLayout>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/dividerHorizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="8dp"
+            android:text="Players"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/playerCountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="8dp"
+            android:text="Players"/>
+
+        <SeekBar
+            android:id="@+id/playerCountSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:progress="4" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/dividerHorizontal"/>
+        <LinearLayout
+            android:id="@+id/playerNamesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"></LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/dividerHorizontal"/>
+
+        <Button
+            android:id="@+id/createGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Create Game"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

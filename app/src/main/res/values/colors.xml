@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorAccent">#009958</color>
+
+    <color name="colorPrimaryScorecard">#444444</color>
+    <color name="colorPrimaryDarkScorecard">#000000</color>
+    <color name="colorAccentScorecard">#ffff8800</color>
+    <color name="colorAccentSelectedScorecard">#ff33b5e5</color>
+
+    <color name="textPrimary">#de000000</color>
+    <color name="textSecondary">#8a000000</color>
+    <color name="selectedBackgroundColor">#1e000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="color0">#aaaa44</color>
+    <color name="color1">#aa44aa</color>
+    <color name="color2">#44aa44</color>
+    <color name="color3">#4444aa</color>
+    <color name="color4">#aa4444</color>
+    <color name="color5">#aaaaaa</color>
+
+</resources>

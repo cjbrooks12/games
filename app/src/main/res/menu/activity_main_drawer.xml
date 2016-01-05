@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:title="Games">
+        <item
+            android:id="@+id/nav_scorecard"
+            android:icon="@drawable/ic_plus_one"
+            android:title="Scorecard" />
+        <item
+            android:id="@+id/nav_ticket_to_ride"
+            android:icon="@drawable/ic_train"
+            android:title="Ticket To Ride" />
+        <item
+            android:id="@+id/nav_clue"
+            android:icon="@drawable/ic_food"
+            android:title="Clue" />
+    </group>
+
+    <item
+        android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_players"
+                android:icon="@drawable/ic_players"
+                android:title="Players" />
+        </menu>
+    </item>
+
+</menu>

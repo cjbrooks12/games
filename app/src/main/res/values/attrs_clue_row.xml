@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ClueRow">
+        <attr name="rowName" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".ScrollingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:width="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Players"
+            android:textSize="26dp"
+            android:textColor="?attr/colorPrimary"/>
+
+        <com.caseyjbrooks.games.features.clue.CluePlayerChooser
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/dividerHorizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="-8dp"
+            android:layout_marginRight="-8dp"/>
+
+        <TextView
+            android:width="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clues"
+            android:textSize="26dp"
+            android:textColor="?attr/colorPrimary"/>
+
+        <TextView
+            android:width="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suspects"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Col. Mustard"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Prof. Plum"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Mr. Green"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Mrs. Peacock"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Miss Scarlet"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Mrs. White"/>
+
+        <TextView
+            android:width="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weapons"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Knife"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Candlestick"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Revolver"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Rope"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Lead Pipe"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Wrench"/>
+
+        <TextView
+            android:width="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rooms"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Hall"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Lounge"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Dining Room"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Kitchen"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Ballroom"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Conservatory"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Billiard Room"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Library"/>
+        <com.caseyjbrooks.games.features.clue.ClueRow
+            android:layout_width="match_parent" android:layout_height="wrap_content" app:rowName="Study"/>
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

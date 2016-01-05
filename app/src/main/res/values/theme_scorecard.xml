@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ScorecardTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryScorecard</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkScorecard</item>
+        <item name="colorAccent">@color/colorAccentScorecard</item>
+        <item name="colorAccentSelected">@color/colorAccentSelectedScorecard</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="selectedBackgroundColor">@color/selectedBackgroundColor</item>
+        <item name="alertDialogTheme">@style/ScorecardTheme.AlertDialog</item>
+    </style>
+    <style name="ScorecardTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ScorecardTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="ScorecardTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ScorecardTheme.AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimaryScorecard</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkScorecard</item>
+        <item name="colorAccent">@color/colorAccentScorecard</item>
+    </style>
+</resources>
